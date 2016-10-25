@@ -1,6 +1,6 @@
 //https://vimeo.com/105955605
 ;(function() {
-  var Game = function(canvasId) {
+    var Game = function(canvasId) {
     var canvas = document.getElementById(canvasId);
     var screen = canvas.getContext('2d');
     var gameSize = { x: canvas.width, y: canvas.height };
